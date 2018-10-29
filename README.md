@@ -1,3 +1,3 @@
 # HPC-WGS
 
-<b>Will be public after publication!</b>
+** All scripts will be publicly available after publication! **
