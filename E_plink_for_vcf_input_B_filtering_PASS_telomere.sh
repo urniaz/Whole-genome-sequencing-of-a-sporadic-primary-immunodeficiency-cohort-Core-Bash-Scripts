@@ -6,10 +6,10 @@ CHR=$@
 
 echo "Chromosome of interest number $CHR"
 ### Input VCF
-IN=/scratch/ru222/data_20170104-B_update/chr"$CHR"/gs10k_20170104-B_VCF_gnomad_exclude_less_0.01_MAF_exclude_less_0.05_no_indels_chr_"$CHR".vcf.gz
+IN=/chr"$CHR"/gs10k_20170104-B_VCF_gnomad_exclude_less_0.01_MAF_exclude_less_0.05_no_indels_chr_"$CHR".vcf.gz
 
 ## Output file
-OUT=/scratch/ru222/Chr_6_recalcualtion_plink/Telomeres_length/res_pid_unrelated_ex_vasculitis_ex_monogenic/res/ch"$CHR"_telomeres_length_all
+OUT=/Telomeres_length/res_pid_unrelated_ex_vasculitis_ex_monogenic/res/ch"$CHR"_telomeres_length_all
 
 ## -exclude_samples list
 
@@ -17,10 +17,10 @@ OUT=/scratch/ru222/Chr_6_recalcualtion_plink/Telomeres_length/res_pid_unrelated_
 ## EXCLUDE=/scratch/ru222/Chr_6_recalculation/cases_849_controls_unrelated_as_familyid_eq_wgsid/snptest_exclusion_list_n_2148.exclude_sample
 
 ## Eigens
-EIGENVEC=/scratch/ru222/Chr_6_recalcualtion_plink/Telomeres_length/res_pid_unrelated_ex_vasculitis_ex_monogenic/eigen_file_pheno_file_continous_telomere_length_PID_ex_vasculitis_unrelated_ex_monogenic_n_825.sample
+EIGENVEC=/Chr_6_recalcualtion_plink/Telomeres_length/res_pid_unrelated_ex_vasculitis_ex_monogenic/eigen_file_pheno_file_continous_telomere_length_PID_ex_vasculitis_unrelated_ex_monogenic_n_825.sample
 
 ## Pheno file
-PHENO=/scratch/ru222/Chr_6_recalcualtion_plink/Telomeres_length/res_pid_unrelated_ex_vasculitis_ex_monogenic/pheno_file_continous_telomere_length_PID_ex_vasculitis_unrelated_ex_monogenic_n_825.sample
+PHENO=/Chr_6_recalcualtion_plink/Telomeres_length/res_pid_unrelated_ex_vasculitis_ex_monogenic/pheno_file_continous_telomere_length_PID_ex_vasculitis_unrelated_ex_monogenic_n_825.sample
 
 ## When start ?
 
