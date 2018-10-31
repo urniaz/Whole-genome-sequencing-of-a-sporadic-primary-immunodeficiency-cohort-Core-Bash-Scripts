@@ -8,7 +8,7 @@ source set_environmental_variables.sh
 CHR=$@
 
 echo "Working on chromosome $CHR"
-WORKING_DIR=/scratch/ru222/data_20170104-B_update/
+WORKING_DIR=/scratch/data_20170104-B_update/
 
 ### PREP ENVIRONMENT
 
