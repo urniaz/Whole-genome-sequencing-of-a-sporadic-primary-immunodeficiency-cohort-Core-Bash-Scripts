@@ -9,7 +9,7 @@ CHR=$@
 echo "Chromosome of interest number $CHR"
 
 ### Input VCF
-IN=/scratch/WGS10K/data/release/20170104-B/merged-vcf/no_hgmd/chr"$CHR"_agg3_dedup_vep_hgmd_filt.bcf
+IN=/merged-vcf/no_hgmd/chr"$CHR"_agg3_dedup_vep_hgmd_filt.bcf
 
 echo "IN="$IN
 
