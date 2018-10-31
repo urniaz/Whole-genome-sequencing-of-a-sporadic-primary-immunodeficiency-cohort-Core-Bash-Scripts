@@ -6,10 +6,10 @@ CHR=$@
 
 echo "Chromosome of interest number $CHR"
 ### Input VCF
-IN=/scratch/ru222/data_20170104-B_update/chr"$CHR"/gs10k_20170104-B_VCF_gnomad_exclude_less_0.01_MAF_exclude_less_0.05_no_indels_chr_"$CHR".vcf.gz
+IN=/data_20170104-B_update/chr"$CHR"/gs10k_20170104-B_VCF_gnomad_exclude_less_0.01_MAF_exclude_less_0.05_no_indels_chr_"$CHR".vcf.gz
 
 ## Output file
-OUT=/scratch/ru222/Chr_6_recalcualtion_plink/CVID/res/ch"$CHR"_case_377_control_6113_PID_and_controls_unrelated_by_falimyid_eq_wgsid_affected_ex_vasculitis_ex_monogenic_CVID
+OUT=/ch"$CHR"_case_377_control_6113_PID_and_controls_unrelated_by_falimyid_eq_wgsid_affected_ex_vasculitis_ex_monogenic
 
 ## -exclude_samples list
 
@@ -17,10 +17,10 @@ OUT=/scratch/ru222/Chr_6_recalcualtion_plink/CVID/res/ch"$CHR"_case_377_control_
 ## EXCLUDE=/scratch/ru222/Chr_6_recalculation/cases_849_controls_unrelated_as_familyid_eq_wgsid/snptest_exclusion_list_n_2148.exclude_sample
 
 ## Eigens
-EIGENVEC=/scratch/ru222/Chr_6_recalcualtion_plink/CVID/eigen_file_case_377_control_6113_PID_and_controls_unrelated_by_falimyid_eq_wgsid_affected_ex_vasculitis_ex_monogenic_CVID.sample
+EIGENVEC=/Chr_6_recalcualtion_plink/CVID/eigen_file_case_377_control_6113_PID_and_controls_unrelated_by_falimyid_eq_wgsid_affected_ex_vasculitis_ex_monogenic_CVID.sample
 
 ## Pheno file
-PHENO=/scratch/ru222/Chr_6_recalcualtion_plink/CVID/pheno_file_case_377_control_6113_PID_and_controls_unrelated_by_falimyid_eq_wgsid_affected_ex_vasculitis_ex_monogenic_CVID.sample
+PHENO=/Chr_6_recalcualtion_plink/CVID/pheno_file_case_377_control_6113_PID_and_controls_unrelated_by_falimyid_eq_wgsid_affected_ex_vasculitis_ex_monogenic_CVID.sample
 
 ## When start ?
 
